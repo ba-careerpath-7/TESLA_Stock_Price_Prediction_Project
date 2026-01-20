@@ -1,8 +1,8 @@
-# TESLA Stock Price Prediction Project
+# 🚗 TESLA Stock Price Prediction Project
 
 
 
-## Project Overview
+## ⭐ Project Overview
 
 This project analyzes Tesla stock prices from 2016 to 2025 using both **machine learning** and **time series forecasting** methods. The goal is to explore patterns, trends, and seasonality in the stock prices and provide insights for decision-making.
 
@@ -11,7 +11,7 @@ This project analyzes Tesla stock prices from 2016 to 2025 using both **machine 
 
 ---
 
-## Objectives
+# 📂 Objectives
 
 1. Apply ML models to daily Tesla stock prices to examine short-term predictions.
 2. Apply time series models to monthly stock prices to forecast trends and identify seasonal patterns.
@@ -19,14 +19,14 @@ This project analyzes Tesla stock prices from 2016 to 2025 using both **machine 
 
 ---
 
-## Data
+## 📄 Data
 
 * I got my Tesla stock price data from the NASDAQ website:
 https://www.nasdaq.com/market-activity/stocks/tsla/historical?page=1&rows_per_page=10&timeline=y10
 
 ---
 
-## Key Findings
+## 🔑 Key Findings
 
 * Tesla stock prices show an upward trend after the year 2020.
 * **Seasonality patterns are visible: January tends to spike, spring months dip, and prices rise from summer through late winter.
@@ -36,7 +36,7 @@ https://www.nasdaq.com/market-activity/stocks/tsla/historical?page=1&rows_per_pa
 ---
 
 
-## Conclusion
+## 💡 Conclusion
 
 This project demonstrates the power of combining ML and time series approaches for financial forecasting. 
 
