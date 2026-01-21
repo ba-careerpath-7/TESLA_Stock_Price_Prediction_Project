@@ -29,7 +29,7 @@ https://www.nasdaq.com/market-activity/stocks/tsla/historical?page=1&rows_per_pa
 ## 🔑 Key Findings
 
 * Tesla stock prices show an upward trend after the year 2020.
-* **Seasonality patterns are visible: January tends to spike, spring months dip, and prices rise from summer through late winter.
+* Seasonality patterns are visible: January tends to spike, spring months dip, and prices rise from summer through late winter.
 * Linear Regression achieved the lowest RMSE among ML models for daily predictions.
 * Prophet and State-Space models provided prediction intervals and trend forecasts for long-term monthly data.
 
