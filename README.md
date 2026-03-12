@@ -8,6 +8,7 @@ In this project, we will try to find ways to visualize Tesla stock price trends 
 
 For the most current NASDAQ Tesla stock prices, here is the website: https://www.nasdaq.com/market-activity/stocks/tsla/historical?page=1&rows_per_page=10&timeline=y10
 
+As a bonus, this project will have a crash course for Time Series data and models! If you never worked with Time Series or need a refresher, this project can help you!
 
 ---
 
@@ -41,18 +42,30 @@ There is one BIG problem.
 
 * Therefore, using Machine Learning (ML) Models to predict many future daily prices such as the next years or next months is not realistic!
 
-
 * Perhaps ML models can predict the next day's stock price. Then we could keep training the ML models as days go on by. But this is only short term predictions.
-
-* Can we get long term predictions without "future" data? 
 
 
 ---
-## 4. 💡 Improved Approach: Using Time Series Models to forecast future  
+## 4. 💡 Improved Approach: Using Time Series Models to forecast future monthly prices.
 
+* **Q:** Can we get long term predictions without "future" data? 
+
+* **A:** Yes! We can use Time Series models to forecast long-term stock prices! And most time series models do NOT require future data! It will automatically forecast future stock prices.
+
+* We should also use **monthly** Tesla stock prices since we can detect seasonality and trends more effectively. Daily stock prices may have noise or be biased depending on the day. Furthermore, monthly stock prices are more parsimonous (more simple to understand). It would be easier to interpret 12 monthly data points vs 365 daily data points. 
+
+### First Strategy
 My training set contained 2016 to 2024 **monthly** stock prices. The testing set contained 2025 **monthly** stock prices. 
 
 But after fitting many time series models, it appears that the year of 2025 was significant and needed to be included in the training set in order to forecast well.
+For instance, the AIC/BIC values of SARIMA actually became lower if the 2025 monthly prices got included in the training data. (Lower AIC/BIC scores indicate better model fit.)
+
+### Second Strategy
+I then decided to make my training set based on all the 2016 to 2025 **monthly** Tesla Stock price. I then forecasted the next 3 years.
+
+Here are some Time Series models and their forecasts!
+
+
 
 
 
@@ -60,18 +73,18 @@ But after fitting many time series models, it appears that the year of 2025 was 
 ---
 ## 5. 📔 The Methodology of what I did: 
 
-### Firstly, I did exploratory data analysis.
+### Firstly, I did Exploratory Data Analysis.
+
+I did feature engineering to create new predictor variables such as $\text{Daily Range} = High - Low$ (Where $High$ represents the highest stock price in a day, and $Low$ represents the lowest stock price in a day.) 
 
 Plots of predictor variables against response variables were made.
 Additionally, predictor variables against other predictor variables were made.
 
-### Secondly, regression machine learning models and time series models were created.
+### Secondly, Regression ML models and Time Series models were created.
   
 * **Stack:** Python (NumPy, pandas, matplotlib, seaborn, scikit-learn, XGBoost, Statsmodel, Prophet)
 
-### Thirdly, I tried to gather insights about which machine learning model or time series model had the best metric and if we found any discoveries about Tesla Stock Prices. 
-
-For a refresher, check them out at [point 3!](#3--key-insights-and-final-conclusions) 
+### Thirdly, I gathered insights and discoveries from ML models, Time Series models, and Time Series data. 
 
 ---
 ## 6. 💻 Technical Log
