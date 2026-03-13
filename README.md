@@ -41,15 +41,24 @@ My training set contained 2016 to 2024 daily stock prices. The testing set conta
 
 Linear Regression was the best model out of all models since it had the lowest rMSE (It appears that many of the predictors were linearly correlated).
 
-[insert bar chart of model rMSEs]
-
+<img width="1349" height="718" alt="github_tesla_1" src="https://github.com/user-attachments/assets/55930890-a125-42da-8388-884845379f38" />
 
 Here is a plot of Linear Regression's predicted stock price values for 2025:
 
-[insert linear regression stock price predictions and actual 2025 predictions]
+<img width="1653" height="904" alt="github_tesla_2" src="https://github.com/user-attachments/assets/501ac8c5-dba6-416a-91f7-dbed812e60ab" />
 
+**Why do I not see a straight line?**
 
-There is one BIG problem. 
+* You might have been expecting a straight line like $y = mx+b$ since we used a Linear Regression model.
+
+* However, Linear Regression does NOT account for temporal order. Linear Regression first calculates its predictions based on the predictor values. Next, the graph organizes the predictions by the chronological order.
+
+**Summary of the Graph:**
+
+* It seems like Linear Regression forecasted the daily 2025 stock prices well!
+* The red line (predicted values) seems to cover the blue lines (actual values) with great accuracy.
+
+### ❗ There is one BIG problem. 
 
 * Notice that we have predictor variable values of each 2025 day! We have the predictor matrix of $X_{test,2025}$.
 
@@ -59,7 +68,7 @@ There is one BIG problem.
 
 * In the current time, we realistically have $X_{train, past}$ and $X_{test,past}$.
 
-* This project was created around December 2025, so that time's available predictor matrices are: $X_{train,past} = X_{train,2016-2024}$ and $X_{test,past} = X_{train,2025}$  
+* This project was created around December 2025, so at that time the available predictor matrices are: $X_{train,past} = X_{train,2016-2024}$ and $X_{test,past} = X_{train,2025}$  
 
 * Perhaps ML models can predict the next day's stock price. Then we could keep training the ML models as days go on by. But this is only short term predictions.
 
