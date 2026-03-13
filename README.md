@@ -1,23 +1,5 @@
 # 🚗 TESLA Stock Price Prediction Project
 
-<a name="about"></a>
-## 1. ⭐ What is this Tesla Stock Price Project about?
-
-<a name="business"></a>
-## 2. 💵 The Business Problem: Can we generalize and predict future Tesla Stock Prices? 
-
-<a name="ml-problem"></a>
-## 3. ❗❗❗ Problem: Using Machine Learning (ML) Models to predict many future daily prices is not realistic!
-
-<a name="timeseries"></a>
-## 4. 💡 Improved Approach: Using Time Series Models to forecast future monthly prices.
-
-<a name="methodology"></a>
-## 5. 📔 The Methodology of what I did: 
-
-<a name="log"></a>
-## 6. 💻 Technical Log
-
 
 ## 📍 Quick Links
 - [What is this Project about?](#about)
@@ -29,6 +11,7 @@
 
 ---
 
+<a name="about"></a>
 ## 1. ⭐ What is this Tesla Stock Price Project about?
 
 In this project, we will try to find ways to visualize Tesla stock price trends and forecast stock prices. This can be useful for someone who wants to figure out if he should keep his/her stocks or sell them to assist in long term investment strategies.  More specifically, this project will use 2016 to 2025 Tesla Stock Prices from the NASDAQ website.
@@ -39,6 +22,7 @@ As a bonus, this project will have a crash course for Time Series data and model
 
 ---
 
+<a name="business"></a>
 ## 2. 💵 The Business Problem: Can we generalize and predict future Tesla Stock Prices? 
 
 Tesla stock prices are known to be extremely volatile.
@@ -49,6 +33,8 @@ Tesla stock prices are known to be extremely volatile.
 
 
 ---
+
+<a name="ml-problem"></a>
 ## 3. ❗❗❗ Problem: Using Machine Learning (ML) Models to predict many future daily prices is not realistic!
 
 My training set contained 2016 to 2024 daily stock prices. The testing set contained 2025 daily stock prices. 
@@ -73,6 +59,8 @@ There is one BIG problem.
 
 
 ---
+
+<a name="timeseries"></a>
 ## 4. 💡 Improved Approach: Using Time Series Models to forecast future monthly prices.
 
 * **Q:** Can we get long term predictions without "future" data? 
@@ -156,6 +144,8 @@ This Space-State model is set to consider a local linear trend.
 
 
 ---
+
+<a name="methodology"></a>
 ## 5. 📔 The Methodology of what I did: 
 
 ### Firstly, I did Exploratory Data Analysis.
@@ -172,6 +162,8 @@ Additionally, predictor variables against other predictor variables were made.
 ### Thirdly, I gathered insights and discoveries from ML models, Time Series models, and Time Series data. 
 
 ---
+
+<a name="log"></a>
 ## 6. 💻 Technical Log
 
 <details>
