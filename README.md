@@ -41,10 +41,10 @@ My training set contained 2016 to 2024 daily stock prices. The testing set conta
 
 Linear Regression was the best model out of all models since it had the lowest rMSE (It appears that many of the predictors were linearly correlated).
 
+📊 Bar plot of each 7 regression model's rMSE values:
 <img width="1349" height="718" alt="github_tesla_1" src="https://github.com/user-attachments/assets/55930890-a125-42da-8388-884845379f38" />
 
-Here is a plot of Linear Regression's predicted stock price values for 2025:
-
+📊 Here is a plot of Linear Regression's predicted stock price values for 2025:
 <img width="1653" height="904" alt="github_tesla_2" src="https://github.com/user-attachments/assets/501ac8c5-dba6-416a-91f7-dbed812e60ab" />
 
 **Why do I not see a straight line?**
@@ -95,6 +95,7 @@ I then decided to make my training set based on all the 2016 to 2025 **monthly**
 
 Using the Second Strategy, here are some Time Series models and their forecasts!
 
+Lets first at just the Time Series data itself!
 
 
 ### Plot of Time Series Data for 2016 to 2025 Monthly Tesla Stock Prices
