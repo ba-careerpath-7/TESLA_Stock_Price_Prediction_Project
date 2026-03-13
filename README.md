@@ -4,8 +4,8 @@
 ## 📍 Quick Links
 - [What is this Project about?](#about)
 - [The Business Problem](#business)
-- [Why ML Models are Not Realistic](#ml-problem)
-- [Improved Time Series Approach](#timeseries)
+- [Why ML Models are Not Realistic for Daily Stock Prices](#ml-problem)
+- [Improved Time Series Approach for Monthly Stock Pries](#timeseries)
 - [Methodology](#methodology)
 - [Technical Log](#log)
 
