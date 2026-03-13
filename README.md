@@ -55,7 +55,7 @@ There is one BIG problem.
 
 * However, how would we forecast the stock price days of the year 2026 and onwards? We do not have any 2026 predictor variable values for that! We do not have the predictor matrix of $X_{test, 2026}!$
 
-* Therefore, using Machine Learning (ML) Models to predict many future daily prices such as the next years or next months is not realistic! It is not realistic to obtain $X_{test, future values}$ since we currently live in the present. 
+* Therefore, using Machine Learning (ML) Models to predict many future daily prices such as the next years or next months is not realistic! It is not realistic to obtain $X_{test, future}$ since we currently live in the present. 
 
 * In the current time, we realistically have $X_{train, past}$ and $X_{test,past}$. In this project, $X_{train,past} = X_{train,2016-2024}$ and $X_{test,past} = X_{train,2025}$  
 
