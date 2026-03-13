@@ -162,6 +162,12 @@ Where:
 This Space-State model is set to consider a local linear trend.
 
 
+
+### Conclusion:
+
+Overall, it appears that these Time Series models have good estimates of what the overall trends and seasonality patterns could be in the future!
+
+
 ---
 
 <a name="methodology"></a>
