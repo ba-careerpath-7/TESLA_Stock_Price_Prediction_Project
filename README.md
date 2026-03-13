@@ -1,5 +1,11 @@
 # 🚗 TESLA Stock Price Prediction Project
 
+## 📍 Quick Links
+- [Business Problem](#2-the-business-problem-can-we-generalize-and-predict-future-tesla-stock-prices)
+- [Why ML Fails for Daily Stock](#3-problem-using-machine-learning-ml-models-to-predict-many-future-daily-prices-is-not-realistic)
+- [Time Series Strategies](#4-improved-approach-using-time-series-models-to-forecast-future-monthly-prices)
+- [Technical Log](#6-technical-log)
+
 ---
 
 ## 1. ⭐ What is this Tesla Stock Price Project about?
@@ -18,7 +24,7 @@ Tesla stock prices are known to be extremely volatile.
 
 * Can we observe their trends and seasonality?
 * Can we possibly make business insights from them?
-* Are there some time series model that can make reasonable forecasts?
+* Are there some time series models that can make reasonable forecasts? 
 
 
 ---
