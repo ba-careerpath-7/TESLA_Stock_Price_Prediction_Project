@@ -18,7 +18,7 @@ In this project, we will try to find ways to visualize Tesla stock price trends 
 
 For the most current NASDAQ Tesla stock prices, here is the website: https://www.nasdaq.com/market-activity/stocks/tsla/historical?page=1&rows_per_page=10&timeline=y10
 
-As a bonus, this project will have a crash course for Time Series data and models! If you never worked with Time Series or need a refresher, this project can help you!
+As a bonus, this project will have a crash course for Time Series data and models! If you never worked with Time Series or need a refresher, this project is for you!
 
 ---
 
