@@ -131,7 +131,10 @@ The SARIMA model's parameters are: $ARIMA(2,1,2) \times (2,0,0)_{12}$  (More det
 
 ### 📊 Prophet:
 
-<img width="960" height="587" alt="github_tesla_5" src="https://github.com/user-attachments/assets/ed1e2b81-c9fa-4881-9b34-71858da2ee85" />
+
+<img width="964" height="600" alt="github_tesla_5" src="https://github.com/user-attachments/assets/e49db406-bab8-4d6f-baa2-326c810b646e" />
+
+
 
 Prophet automatically handles trends and seasonality of this data, so we do not have to worry about any configurations!
 
