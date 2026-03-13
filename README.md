@@ -18,7 +18,7 @@ Tesla stock prices are known to be extremely volatile.
 
 * Can we observe their trends and seasonality?
 * Can we possibly make business insights from them?
-* Can we make a time series model 
+* Are there some time series model that can make reasonable forecasts?
 
 
 ---
@@ -63,11 +63,69 @@ For instance, the AIC/BIC values of SARIMA actually became lower if the 2025 mon
 ### Second Strategy
 I then decided to make my training set based on all the 2016 to 2025 **monthly** Tesla Stock price. I then forecasted the next 3 years.
 
-Here are some Time Series models and their forecasts!
+Using the Second Strategy, here are some Time Series models and their forecasts!
 
 
 
+### Plot of Time Series Data for 2016 to 2025 Monthly Tesla Stock Prices
 
+[insert regular time series data plot here]
+
+Models are not necessary to gain insights! Just looking at the data can give us insights!
+
+**Monthly Patterns:**
+
+* January appears to have the largest spikes in stock prices.
+
+* Spring months tend to decrease in stock prices.
+
+* Summer to late winter months tend to increase in stock prices.
+
+
+**Business Insights:**
+
+* Based on these trends, an investor might consider buying during early spring months when prices are lower and selling during summer or late winter months when prices tend to peak.
+
+* WARNING: Tesla stocks are highly volatile. These patterns are not guaranteed and should not be relied on as a definitive trading strategy.  
+
+
+### SARIMA:
+
+Here is a plot of the SARIMA model with its prediction intervals and forecasted values:
+
+[plot of 2nd SARIMA model]
+
+The SARIMA model's parameters are: $ARIMA(2,1,2) \times (2,0,0)_{12}$  (More details of how to intepret these parameters are in the project.)       
+
+
+### Prophet:
+
+Here is a plot of the SARIMA model with its prediction intervals and forecasted values:
+
+[plot of PROPHET model]
+
+Prophet automatically handles trends and seasonality of this data, so we do not have to worry about any configurations!
+
+Here is the Prophet time series model formula:
+
+$$\hat y_t = \hat m_t + \hat s_t + \hat h_t$$
+
+Where:
+
+* $\hat y_t$: The predicted/forecasted value at time $t$.
+
+* $\hat m_t$: The predicted trend.
+
+* $\hat s_t$: The predicted seasonal component.
+
+* $\hat h_t$: The predicted holiday effect. (This is optional.) 
+
+### Space-State Model:
+
+[plot of Space-State Model]
+
+
+This Space-State model is set to consider a local linear trend.
 
 
 ---
