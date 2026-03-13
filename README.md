@@ -51,9 +51,14 @@ Here is a plot of Linear Regression's predicted stock price values for 2025:
 
 There is one BIG problem. 
 
-* Notice that we have information of each 2025 day! However, how would we predict the stock price days of the year 2026 and onwards? We do not have any 2026 data for that!
+* Notice that we have predictor variable values of each 2025 day! We have the predictor matrix of $X_{test,2025}$.
 
-* Therefore, using Machine Learning (ML) Models to predict many future daily prices such as the next years or next months is not realistic!
+* However, how would we forecast the stock price days of the year 2026 and onwards? We do not have any 2026 predictor variable values for that! We do not have the predictor matrix of $X_{test, 2026}!$
+
+* Therefore, using Machine Learning (ML) Models to predict many future daily prices such as the next years or next months is not realistic! It is not realistic to obtain $X_{test, future values}$ since we currently live in the present. 
+
+* In the current time, we realistically have $X_{train, past}$ and $X_{test,past}$. In this project, $X_{train,past} = X_{train,2016-2024}$ and $X_{test,past} = X_{train,2025}$  
+
 
 * Perhaps ML models can predict the next day's stock price. Then we could keep training the ML models as days go on by. But this is only short term predictions.
 
@@ -65,7 +70,7 @@ There is one BIG problem.
 
 * **Q:** Can we get long term predictions without "future" data? 
 
-* **A:** Yes! We can use Time Series models to forecast long-term stock prices! And most time series models do NOT require future data! It will automatically forecast future stock prices.
+* **A:** Yes! We can use Time Series models to forecast long-term stock prices! And most time series models do NOT require future data of $X_{test, future values}$! It will automatically forecast future stock prices. Time Series models mainly require the response variable of $\vec y$, the response variable values. In this case, the response variable is the closing stock prices. 
 
 * We should also use **monthly** Tesla stock prices since we can detect seasonality and trends more effectively. Daily stock prices may have noise or be biased depending on the day. Furthermore, monthly stock prices are more parsimonous (more simple to understand). It would be easier to interpret 12 monthly data points vs 365 daily data points. 
 
