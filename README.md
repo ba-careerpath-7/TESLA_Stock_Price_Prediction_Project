@@ -57,8 +57,9 @@ There is one BIG problem.
 
 * Therefore, using Machine Learning (ML) Models to predict many future daily prices such as the next years or next months is not realistic! It is not realistic to obtain $X_{test, future}$ since we currently live in the present. 
 
-* In the current time, we realistically have $X_{train, past}$ and $X_{test,past}$. In this project, $X_{train,past} = X_{train,2016-2024}$ and $X_{test,past} = X_{train,2025}$  
+* In the current time, we realistically have $X_{train, past}$ and $X_{test,past}$.
 
+* This project was created around December 2025, so that time's available predictor matrices are: $X_{train,past} = X_{train,2016-2024}$ and $X_{test,past} = X_{train,2025}$  
 
 * Perhaps ML models can predict the next day's stock price. Then we could keep training the ML models as days go on by. But this is only short term predictions.
 
