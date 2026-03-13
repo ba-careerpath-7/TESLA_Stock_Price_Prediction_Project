@@ -1,11 +1,13 @@
 # 🚗 TESLA Stock Price Prediction Project
 
 ## 📍 Quick Links
-- [Business Problem](#2-the-business-problem-can-we-generalize-and-predict-future-tesla-stock-prices)
-- [Why ML Fails for Daily Stock](#3-problem-using-machine-learning-ml-models-to-predict-many-future-daily-prices-is-not-realistic)
-- [Time Series Strategies](#4-improved-approach-using-time-series-models-to-forecast-future-monthly-prices)
+- [What is this Project about?](#1-what-is-this-tesla-stock-price-project-about)
+- [The Business Problem](#2-the-business-problem-can-we-generalize-and-predict-future-tesla-stock-prices)
+- [Why ML Models are Not Realistic](#3-problem-using-machine-learning-ml-models-to-predict-many-future-daily-prices-is-not-realistic)
+- [Improved Time Series Approach](#4-improved-approach-using-time-series-models-to-forecast-future-monthly-prices)
+- [Methodology](#5-the-methodology-of-what-i-did)
 - [Technical Log](#6-technical-log)
-
+  
 ---
 
 ## 1. ⭐ What is this Tesla Stock Price Project about?
