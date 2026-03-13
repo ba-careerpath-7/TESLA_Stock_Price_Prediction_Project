@@ -98,7 +98,7 @@ Using the Second Strategy, here are some Time Series models and their forecasts!
 Lets first at just the Time Series data itself!
 
 
-### Plot of Time Series Data for 2016 to 2025 Monthly Tesla Stock Prices
+### 📊 Plot of Time Series Data for 2016 to 2025 Monthly Tesla Stock Prices
 
 [insert regular time series data plot here]
 
@@ -120,7 +120,7 @@ Models are not necessary to gain insights! Just looking at the data can give us 
 * WARNING: Tesla stocks are highly volatile. These patterns are not guaranteed and should not be relied on as a definitive trading strategy.  
 
 
-### SARIMA:
+### 📊 SARIMA:
 
 Here is a plot of the SARIMA model with its prediction intervals and forecasted values:
 
@@ -129,7 +129,7 @@ Here is a plot of the SARIMA model with its prediction intervals and forecasted 
 The SARIMA model's parameters are: $ARIMA(2,1,2) \times (2,0,0)_{12}$  (More details of how to intepret these parameters are in the project.)       
 
 
-### Prophet:
+### 📊 Prophet:
 
 Here is a plot of the SARIMA model with its prediction intervals and forecasted values:
 
@@ -151,7 +151,7 @@ Where:
 
 * $\hat h_t$: The predicted holiday effect. (This is optional.) 
 
-### Space-State Model:
+### 📊 Space-State Model:
 
 [plot of Space-State Model]
 
