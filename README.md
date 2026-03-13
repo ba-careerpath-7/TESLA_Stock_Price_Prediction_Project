@@ -100,7 +100,8 @@ Lets first at just the Time Series data itself!
 
 ### 📊 Plot of Time Series Data for 2016 to 2025 Monthly Tesla Stock Prices
 
-[insert regular time series data plot here]
+<img width="1267" height="879" alt="github_tesla_3" src="https://github.com/user-attachments/assets/c0d18784-aad3-4f9c-9600-5b1cde22d9c9" />
+
 
 Models are not necessary to gain insights! Just looking at the data can give us insights!
 
@@ -122,22 +123,21 @@ Models are not necessary to gain insights! Just looking at the data can give us 
 
 ### 📊 SARIMA:
 
-Here is a plot of the SARIMA model with its prediction intervals and forecasted values:
+<img width="1296" height="886" alt="github_tesla_4" src="https://github.com/user-attachments/assets/2bc2f004-eb6c-43a6-a0fb-9c83160b8c16" />
 
-[plot of 2nd SARIMA model]
 
 The SARIMA model's parameters are: $ARIMA(2,1,2) \times (2,0,0)_{12}$  (More details of how to intepret these parameters are in the project.)       
 
 
 ### 📊 Prophet:
 
-Here is a plot of the SARIMA model with its prediction intervals and forecasted values:
-
-[plot of PROPHET model]
+<img width="960" height="587" alt="github_tesla_5" src="https://github.com/user-attachments/assets/ed1e2b81-c9fa-4881-9b34-71858da2ee85" />
 
 Prophet automatically handles trends and seasonality of this data, so we do not have to worry about any configurations!
 
-Here is the Prophet time series model formula:
+The black dots represent the 2016 to 2025 stock prices. The shaded blue area represents the prediction intervals. 
+
+This is the Prophet Time Series model formula:
 
 $$\hat y_t = \hat m_t + \hat s_t + \hat h_t$$
 
@@ -153,7 +153,7 @@ Where:
 
 ### 📊 Space-State Model:
 
-[plot of Space-State Model]
+<img width="1267" height="878" alt="github_tesla_6" src="https://github.com/user-attachments/assets/44baee59-9288-451c-833f-420be7d57b44" />
 
 
 This Space-State model is set to consider a local linear trend.
