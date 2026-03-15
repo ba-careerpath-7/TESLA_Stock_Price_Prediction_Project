@@ -1,6 +1,13 @@
 # 🚗 TESLA Stock Price Prediction Project
 
 
+
+--- 
+## 🌈 Table of Contents for this Project:
+
+
+---
+
 ## 📍 Quick Links
 - [What is this Project about?](#about)
 - [The Business Problem](#business)
