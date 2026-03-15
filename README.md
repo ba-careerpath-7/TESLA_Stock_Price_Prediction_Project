@@ -3,7 +3,7 @@
 
 
 --- 
-## 🌈 Table of Contents for this Project:
+## 📋 Table of Contents for this Project:
 
 ![image alt](https://github.com/ba-careerpath-7/TESLA_Stock_Price_Prediction_Project/blob/018ac5556dfec73625e2e402116bbdc75dcbb9ec/github_tesla_content_table.PNG)
 
